@@ -10,5 +10,5 @@ source  ~/powerlevel9k/powerlevel9k.zsh-theme
 # Auto-Suggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-SAVEHIST=9999999
-HISTFILE=~/.zsh_history
+# SAVEHIST=9999999
+# HISTFILE=~/.zsh_history

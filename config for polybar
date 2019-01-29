@@ -21,13 +21,13 @@ offset-y = 0
 bottom = true 
 
 border-size = 8
-border-color = #2D3341
+border-color = #1D1247
 
 line-size = 0
 
-background = #2D3341
+background = #1D1247
 ;background = #0B2643
-foreground = #2D3341
+foreground = #1D1247
 
 padding-left = 0
 padding-right = 0
@@ -55,77 +55,77 @@ modules-right = workspaces right1 right1 date right1 right2
 type = custom/text
 content = ""
 content-foreground = #ff446d
-content-background = #2D3341
+content-background = #1D1247
 label-font = 1
 
 [module/left1]
 type = custom/text
 content = ""
 content-foreground = #ff446d
-content-background = #2D3341
+content-background = #1D1247
 
 [module/right2]
 type = custom/text
 content = ""
 content-foreground = #ff446d
-content-background = #2D3341
+content-background = #1D1247
 
 [module/left2]
 type = custom/text
 content = ""
 content-foreground = #ff446d
-content-background = #2D3341
+content-background = #1D1247
 
 [module/m1]
 type = custom/text
 content = "  "
-content-foreground = #2D3341
-content-background = #1f914f
+content-foreground = #1D1247
+content-background = #3D3C99
 content-font = 
 
 [module/m2]
 type = custom/text
 content = ""
-content-foreground = #27AE60
-content-background = #1f914f
+content-foreground = #5753A8
+content-background = #3D3C99
 
 
 [module/c1]
 type = custom/text
 content = "  "
-content-foreground = #2D3341
-content-background = #1f914f
+content-foreground = #1D1247
+content-background = #3D3C99
 
 [module/c2]
 type = custom/text
 content = ""
-content-foreground = #27AE60
-content-background = #1f914f
+content-foreground = #5753A8
+content-background = #3D3C99
 
 [module/me1]
 type = custom/text
 content = " "
-content-foreground = #2D3341
-content-background = #1f914f
+content-foreground = #1D1247
+content-background = #3D3C99
 
 [module/me2]
 type = custom/text
 content = " "
-content-foreground = #27AE60
-content-background = #1f914f
+content-foreground = #5753A8
+content-background = #3D3C99
 
 
 [module/b1]
 type = custom/text
 content = "  "
-content-foreground = #2D3341
-content-background = #1f914f
+content-foreground = #1D1247
+content-background = #3D3C99
 
 [module/t1]
 type = custom/text
 content = "  "
-content-foreground = #2D3341
-content-background = #1f914f
+content-foreground = #1D1247
+content-background = #3D3C99
 
 
 ##### Workspaces #################################
@@ -151,8 +151,8 @@ icon-default = ""
 format = "<label-state>"
 
 label-active = "  %name% "
-label-active-foreground = #2D3341
-label-active-background = #27AE60
+label-active-foreground = #1D1247
+label-active-background = #5753A8
 ;label-active-underline = #34D2AE
 ;label-active-overline = #34D2AE
 label-active-padding = 0
@@ -160,8 +160,8 @@ label-active-font = 1
 
 label-empty = " %icon% "
 label-empty-padding = 0
-label-empty-foreground = #2D3341
-label-empty-background = #1f914f
+label-empty-foreground = #1D1247
+label-empty-background = #3D3C99
 label-empty-underline = #EC4B5D
 label-empty-font = 1
 
@@ -227,7 +227,7 @@ interval = 2
 ;format-foreground = #FFFFFF
 format-underline = #4B5EEC
 label =" %percentage%% "
-format-background = #27AE60
+format-background = #5753A8
 
 [module/memory]
 type = internal/memory
@@ -236,9 +236,9 @@ interval = 2
 format-prefix-background = #FA2622
 ;format-underline = #764BEC
 label =" %percentage_used%% "
-;format-foreground = #2D3341
+;format-foreground = #1D1247
 
-format-background = #27AE60
+format-background = #5753A8
 
 [module/wlan]
 type = internal/network
@@ -246,7 +246,7 @@ interface = wlp3s0
 interval = 3.0
 
 format-connected = " <label-connected>"
-format-connected-background = #27AE60
+format-connected-background = #5753A8
 label-connected = " on "
 ;format-connected-prefix = " "
 ;format-disconnected-prefix = " "
@@ -307,7 +307,7 @@ type = internal/volume
 
 format-volume = " <label-volume><bar-volume>"
 label-volume = "VOL"
-label-volume-background = #1f914f
+label-volume-background = #3D3C99
 format-volume-suffix = 
 format-volume-suffix-background = 
 ;format-volume-foreground = #FFFFFF
@@ -317,7 +317,7 @@ label-muted = " muted "
 label-muted-background = #ff446d
 
 bar-volume-width = 8
-bar-volume-foreground = #2D3341
+bar-volume-foreground = #1D1247
 ;bar-volume-foreground-0 = #0B0F56
 ;bar-volume-foreground-1 = #6B0E83
 ;bar-volume-foreground-2 = #9D0F85
@@ -329,16 +329,16 @@ bar-volume-background = #ff446d
 bar-volume-gradient = false
 
 bar-volume-indicator = 
-bar-volume-indicator-background = #2D3341
-bar-volume-indicator-foreground = #1f914f
+bar-volume-indicator-background = #1D1247
+bar-volume-indicator-foreground = #3D3C99
 ;bar-volume-indicator-font = 
 
 bar-volume-fill = 
-bar-volume-fill-background = #2D3341
-bar-volume-fill-foreground = #1f914f
+bar-volume-fill-background = #1D1247
+bar-volume-fill-foreground = #3D3C99
 
 bar-volume-empty = 
-bar-volume-empty-background = #2D3341
+bar-volume-empty-background = #1D1247
 bar-volume-empty-foreground = #ff446d
 
 [module/battery]
@@ -350,10 +350,10 @@ full-at = 100
 format = " <label> "
 format-charging = " <label-charging> "
 format-charging-prefix = " "
-format-charging-background = #27AE60
+format-charging-background = #5753A8
 format-discharging = " <label-discharging> "
 format-discharging-prefix = " "
-format-discharging-background = #27AE60
+format-discharging-background = #5753A8
 
 ramp-capacity-0 = " ÃÂ¯ÃÂÃÂ"
 ramp-capacity-1 = " ÃÂ¯ÃÂÃÂ"
@@ -379,8 +379,8 @@ warn-temperature = 60
 format = " <label> "
 format-prefix = " "
 format-warn = " <label-warn> "
-format-warn-background = #27AE60
-format-background = #27AE60
+format-warn-background = #5753A8
+format-background = #5753A8
 
 label = %temperature-c%
 label-warn = %temperature-c% 
