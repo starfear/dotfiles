@@ -44,7 +44,7 @@ font-6 = Droid Sans Mono Nerd Fontsize=15;3
 module-margin-left = 0
 module-margin-right = 0
 
-modules-left = left2 left1 volume c1 c2 cpu me1 me2 memory
+modules-left = left2 left1 volume c1 c2 cpu me1 me2 memory m1 m2 netusage
 modules-center = 
 modules-right = workspaces right1 right1 date right1 right2
 
@@ -89,7 +89,6 @@ content = ""
 content-foreground = #5753A8
 content-background = #3D3C99
 
-
 [module/c1]
 type = custom/text
 content = "  "
@@ -113,7 +112,6 @@ type = custom/text
 content = " "
 content-foreground = #5753A8
 content-background = #3D3C99
-
 
 [module/b1]
 type = custom/text
@@ -228,6 +226,19 @@ interval = 2
 format-underline = #4B5EEC
 label =" %percentage%% "
 format-background = #5753A8
+
+[module/netusage]
+type = custom/script
+interval = 2
+format-prefix = " "
+;format-prefix = " Network: "
+format-suffix = " "
+;format-prefix-foreground = #C1C2B2
+;format-foreground = #FFFFFF
+format-underline = #4B5EEC
+format-background = #5753A8
+tail = true
+exec = network_usage_to_human /tmp/network_usage_bytes
 
 [module/memory]
 type = internal/memory
