@@ -1,31 +1,14 @@
-[global/wm]
-; Adjust the _NET_WM_STRUT_PARTIAL top value
-;   Used for top aligned bars
-;margin-top = 20
-
-; Adjust the _NET_WM_STRUT_PARTIAL bottom value
-;   Used for bottom aligned bars
-;margin-bottom = 0
-
 [colors]
 transparent = #AA000000
 invisible = #0000
 background = #0A0D1B
-; #AA011A2B
 foreground = #D9AC6E
-red = #85EABE
-;${xrdb:color1}
 dim = #E6B573
-;${xrdb:color8}
 
 [settings]
-; Define fallback values used by all module formats
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 format-padding = 
-; margin between multiple labels in a module
-; e.g. bspwm workspace module
-;format-margin = 1
 
 [bar/bottom]
 width = 100%
