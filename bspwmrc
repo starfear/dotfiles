@@ -1,0 +1,20 @@
+#! /bin/sh
+
+sxhkd &
+
+# wallpapers
+#feh --bg-fill ~/wallpapers/c40ca880de32fb08c1e2cdc025c23480.jpg 
+#xwinwrap -g 1920x1080 -ov -- mpv -wid WID ~/wallpapers/Light\ Illuminating\ Blue\ Glitter\ Particles\ -\ 4K\ Relaxing\ Screensaver.mp
+wal -R
+#livewallpaper &
+# echo 123
+
+bspc monitor -d    4 5 6 7 8 9
+
+bspc config border_width         0
+bspc config window_gap          0
+
+bspc config split_ratio          0.5
+bspc config borderless_monocle   false
+bspc config gapless_monocle      true
+
